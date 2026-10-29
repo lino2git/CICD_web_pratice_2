@@ -25,3 +25,4 @@ def test_homepage_content(page: Page):
     # 3. 驗證部署狀態區塊標籤
     status_element = page.locator("#deploy-status")
     expect(status_element).to_be_visible()
+    print("test")
